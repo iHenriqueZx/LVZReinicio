@@ -1,0 +1,13 @@
+name: LIZReinicio
+version: 1.0
+main: br.com.henriplugins.LIZReinicio
+api-version: 1.8
+author: LevImpZ
+
+commands:
+  reiniciar:
+    description: Gerencia o reinício do servidor.
+    usage: /reiniciar <agora | cancelar | reload>
+    aliases: [reinicio]
+    permission: lizreinicio.use
+    permission-message: "§cVocê não tem permissão para usar este comando."
